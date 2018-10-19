@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_request_type" table="x_58872_needit_historic_">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_preferences" table="x_58872_needit_needit">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>import_attribute_name=Request type,edge_encryption_enabled=true</attributes>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Request type</column_label>
+        <column_label>Preferences</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>urgent 1</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -22,7 +22,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_request_type</element>
+        <element>u_preferences</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
@@ -30,7 +30,7 @@
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_58872_needit_historic_</name>
+        <name>x_58872_needit_needit</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -47,16 +47,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-03-29 19:59:32</sys_created_on>
-        <sys_id>0b888f00db512300da4aa0f2ca9619ea</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Request type</sys_name>
+        <sys_created_on>2018-10-19 10:57:56</sys_created_on>
+        <sys_id>317609b0db996300da4aa0f2ca961988</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Preferences</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_dictionary_x_58872_needit_historic__u_request_type</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-10-17 12:30:52</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_58872_needit_needit_u_preferences</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-19 10:57:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
